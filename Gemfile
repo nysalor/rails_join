@@ -22,10 +22,13 @@ end
 
 gem 'jquery-rails'
 gem 'seed-fu'
+gem 'faker'
+gem 'everywhere'
 
 group :development do
   gem 'pry-rails'
   gem 'clipboard'
+  gem 'colored'
 end
 
 # To use ActiveModel has_secure_password
