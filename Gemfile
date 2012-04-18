@@ -21,6 +21,12 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'seed-fu'
+
+group :development do
+  gem 'pry-rails'
+  gem 'clipboard'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
